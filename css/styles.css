@@ -1,0 +1,63 @@
+.wrap{
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container{
+    display: inline-block;
+    width: 33%;
+}
+
+h1{
+    color: blue;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.box{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 30px auto;
+}
+
+.wrap:hover .box{
+    transform: translate(0em, 20em);
+}
+
+.box1{
+    background: royalblue;
+    transition: 600ms;
+}
+
+
+.box2{
+    background: forestgreen;
+    transition: 6s;
+}
+
+.box3{
+    background: purple;
+    transition: 300ms;
+}
+
+.box4{
+    background: yellow;
+    transition: 3s;
+}
+
+.box5{
+    background: red;
+    transition: 100ms
+}
+
+.wrap:hover .box6{
+    transform: translateZ(5em, 5em);
+}
+
+.box6{
+    background: black;
+    transition: 1s;
+}
